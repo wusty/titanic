@@ -11,13 +11,28 @@ $body-color: #333
 $black: black
 
 .notification
-  background-color: white!important;
+  background-color: white!important
+
+.notification a:not(.button):not(.dropdown-item)
+  text-decoration: none!important
+  color: $black!important
+
+a.has-text-primary:hover, a.has-text-primary:focus
+  color: $black!important
 
 .navbar
   background-color: rgba(255,255,255,0.1)!important
 
+.navbar > .container
+  min-height: 6.25rem!important
+
 .navbar-item
-  font-weight: 700;
+  font-weight: 700
+  color: $black!important
+
+.navbar-item:hover
+  font-weight: 900
+  font-size: 18px
 
 .navbar .navbar-menu
   box-shadow:none !important

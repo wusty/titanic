@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import instagram from '../img/social/instagram.svg'
+
+// import github from '../img/github-icon.svg'
+// import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -69,12 +71,12 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
+              <Link className="navbar-item" to="/connect">
+                Connect
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
+              {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
-              </Link>
+              </Link> */}
             </div>
             <div className="navbar-end has-text-centered">
               <a
@@ -82,7 +84,23 @@ const Navbar = class extends React.Component {
                 href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a>
+              >
+                <span className="icon">
+                  <a
+                    target="_blank"
+                    title="instagram"
+                    href="https://instagram.com/titanic4u"
+                    style={{ color: 'black' }}
+                  >
+                    <img
+                      src={instagram}
+                      alt="Instagram"
+                      style={{ width: '1em', height: '1em' }}
+                    />
+                    <span>@titanic4u</span>
+                  </a>
+                </span>
+              </a>
             </div>
           </div>
         </div>
