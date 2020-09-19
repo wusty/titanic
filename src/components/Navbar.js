@@ -80,26 +80,20 @@ const Navbar = class extends React.Component {
             </div>
             <div className="navbar-end has-text-centered">
               <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                className="navbar-item columns"
                 target="_blank"
-                rel="noopener noreferrer"
+                title="instagram"
+                href="https://instagram.com/titanic4u"
+                style={{ color: 'black' }}
               >
-                <span className="icon">
-                  <a
-                    target="_blank"
-                    title="instagram"
-                    href="https://instagram.com/titanic4u"
-                    style={{ color: 'black' }}
-                  >
-                    <img
-                      src={instagram}
-                      alt="Instagram"
-                      style={{ width: '1em', height: '1em' }}
-                    />
-                    <span>@titanic4u</span>
-                  </a>
-                </span>
+                <div className="column">
+                  <img
+                    src={instagram}
+                    alt="Instagram"
+                    style={{ width: '100%', height: '1em' }}
+                  />
+                  <span>@titanic4u</span>
+                </div>
               </a>
             </div>
           </div>

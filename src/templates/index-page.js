@@ -16,7 +16,7 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <div
+    {/* <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
@@ -63,14 +63,14 @@ export const IndexPageTemplate = ({
           {subheading}
         </h3>
       </div>
-    </div>
+    </div> */}
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content">
+                {/* <div className="content">
                   <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
@@ -85,18 +85,18 @@ export const IndexPageTemplate = ({
                     </h3>
                     <p>{description}</p>
                   </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
+                </div> */}
+                {/* <Features gridItems={intro.blurbs} /> */}
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  {/* <h3 className="has-text-weight-semibold is-size-2">
                     Latest posts
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
+                  </h3> */}
+                  <BlogRoll numberOfPosts={4} />
+                  {/* <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/archive">
                       Read more / go to archive
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

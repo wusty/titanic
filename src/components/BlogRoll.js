@@ -5,13 +5,15 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, numberOfPosts } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
+    const filteredPosts = posts.slice(0, numberOfPosts)
+    console.log(numberOfPosts, filteredPosts.length)
     return (
       <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
+        {filteredPosts &&
+          filteredPosts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
@@ -59,6 +61,7 @@ class BlogRoll extends React.Component {
 }
 
 BlogRoll.propTypes = {
+  numberOfPosts: PropTypes.number,
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -99,6 +102,8 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
+    render={(data, count, numberOfPosts) => (
+      <BlogRoll data={data} count={count} numberOfPosts={numberOfPosts} />
+    )}
   />
 )
