@@ -1,12 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 
 const VideoBackground = () => {
-  const [isBlogPage, setIsBlogPage] = useState(
-    window.location.href.includes('/blog')
-  )
-  const [isConnectPage, setIsConnectPage] = useState(
-    window.location.href.includes('/connect')
-  )
+  const href = typeof window !== `undefined` ? window.location.href : ''
+  const [isBlogPage, setIsBlogPage] = useState(href.includes('/blog'))
+  const [isConnectPage, setIsConnectPage] = useState(href.includes('/connect'))
   const videoElementRef = useRef(null)
   useEffect(() => {
     if (videoElementRef.current) {
@@ -16,11 +13,11 @@ const VideoBackground = () => {
   }, [])
 
   useEffect(() => {
-    if (window.location.href.includes('/blog') && !isBlogPage) {
+    if (href.includes('/blog') && !isBlogPage) {
       setIsBlogPage(true)
     }
 
-    if (window.location.href.includes('/connect') && !isConnectPage) {
+    if (href.includes('/connect') && !isConnectPage) {
       setIsConnectPage(true)
     }
   }, [])
