@@ -19,9 +19,9 @@ October 13th – November 1st
 
 TITANIC @ [REIMERSHOLME HOTEL](https://reimersholmehotel.se/)
 
-*Visit the exhibition during the hotels opening hours.* 
+Adress: [](https://www.google.com/search?q=reimersholme+hotel+adress&stick=H4sIAAAAAAAAAOPgE-LWT9c3LMlLz6uwzNWSzU620s_JT04syczPgzOsElNSilKLixexShalZuamFhVn5Ofkpipk5Jek5igkguUA12CFOUoAAAA&ludocid=2770460952141504904&sa=X&ved=2ahUKEwjfwr7diPbrAhWHw4sKHf4yB-8Q6BMwEnoECB4QAg)Reimersholmsgatan 5, 117 40 Stockholm, Sweden
 
-*Ask for directions and key at the reception or in the bar.*
+**This venture is available in sync with opening hours at Reimersholme Hotel, further information and direction available through hotel staff in the reception or at the bar ...**
 
 <http://aaaaaaa.org/>
 
