@@ -6,6 +6,7 @@ const VideoBackground = () => {
   const [isBlogPage, setIsBlogPage] = useState(href.includes('/blog'))
   const [isConnectPage, setIsConnectPage] = useState(href.includes('/connect'))
   const [isArchivePage, setIsArchivePage] = useState(href.includes('/archive'))
+  const [isJoyPage, setIsJoyPage] = useState(href.includes('/joy'))
   const videoElementRef = useRef(null)
 
   useEffect(() => {
@@ -26,6 +27,10 @@ const VideoBackground = () => {
     if (href.includes('/archive') && !isArchivePage) {
       setIsArchivePage(true)
     }
+
+    if (href.includes('/joy') && !isJoyPage) {
+      setIsJoyPage(true)
+    }
   }, [href, isBlogPage, isConnectPage, isArchivePage])
 
   return (
@@ -34,7 +39,7 @@ const VideoBackground = () => {
         isBlogPage ? 'blog-background' : ''
       } ${isConnectPage ? 'connect-background' : ''}${
         isArchivePage ? 'archive-background' : ''
-      }`}
+      }${isJoyPage ? 'joy-background' : ''}`}
     >
       <video
         ref=""
