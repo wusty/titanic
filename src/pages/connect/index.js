@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import globe from '../../img/titanic-globe.gif'
 
 function encode(data) {
   return Object.keys(data)
@@ -8,6 +9,11 @@ function encode(data) {
     .join('&')
 }
 
+const style = {
+  marginTop: '40px',
+  position: 'absolute',
+  left: '45%',
+}
 export default class Index extends React.Component {
   constructor(props) {
     super(props)
@@ -36,7 +42,6 @@ export default class Index extends React.Component {
   handleClickMore = () => {
     this.setState({ showMoreText: true })
   }
-
   render() {
     return (
       <Layout>
@@ -46,12 +51,16 @@ export default class Index extends React.Component {
               <h1>Connect</h1>
               <a href="mailto:info@titanic.nu">info@titantic.nu</a>
               {!this.state.showMoreText && (
-                <div>
-                  <button onClick={this.handleClickMore}>more...</button>
+                <div style={style}>
+                  <input
+                    type="image"
+                    src={globe}
+                    onClick={this.handleClickMore}
+                  ></input>
                 </div>
               )}
               {this.state.showMoreText && (
-                <p>
+                <p style={style}>
                   Ay Ay, there is no Captain. All actions on bridge deck are
                   taken by affirmative consensus. Titanic is about the
                   despicable desire to fill the void. Everyone is important and

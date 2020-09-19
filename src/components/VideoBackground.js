@@ -4,6 +4,9 @@ const VideoBackground = () => {
   const [isBlogPage, setIsBlogPage] = useState(
     window.location.href.includes('/blog')
   )
+  const [isConnectPage, setIsConnectPage] = useState(
+    window.location.href.includes('/connect')
+  )
   const videoElementRef = useRef(null)
   useEffect(() => {
     if (videoElementRef.current) {
@@ -16,11 +19,17 @@ const VideoBackground = () => {
     if (window.location.href.includes('/blog') && !isBlogPage) {
       setIsBlogPage(true)
     }
+
+    if (window.location.href.includes('/connect') && !isConnectPage) {
+      setIsConnectPage(true)
+    }
   }, [])
 
   return (
     <div
-      className={`video-image-color-fill ${isBlogPage ? 'red-background' : ''}`}
+      className={`video-image-color-fill ${
+        isBlogPage ? 'blog-background' : ''
+      } ${isConnectPage ? 'connect-background' : ''}`}
     >
       <video
         ref=""
