@@ -9,7 +9,7 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     const filteredPosts = posts.slice(0, numberOfPosts)
-    console.log('filteredPosts: ', filteredPosts)
+    // console.log('filteredPosts: ', filteredPosts)
     return (
       <div className="columns is-multiline">
         {filteredPosts &&
@@ -106,7 +106,6 @@ export default () => (
         }
       }
     `}
-    debugger
     render={(data, count) => {
       return <BlogRoll data={data} count={count} />
     }}
