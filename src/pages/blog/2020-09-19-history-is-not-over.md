@@ -11,8 +11,12 @@ tags:
   - contemporary art
   - reimersholme hotel
 ---
+
+
+*@* [Reimersholme hotel](https://reimersholmehotel.se/)
+
 *The Aesthetics of the Popular Fronts*
 
 
 
-<http://www.agentur.ooo/eng/index.html>
+RSVP to: <http://www.agentur.ooo/eng/index.html>
