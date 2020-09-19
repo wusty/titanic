@@ -8,7 +8,7 @@ description: |+
 
 
 featuredpost: true
-featuredimage: /img/fullsizerender-1.jpg
+featuredimage: ""
 tags:
   - antoine catala
   - contemporary art
