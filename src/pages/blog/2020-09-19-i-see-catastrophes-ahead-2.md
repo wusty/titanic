@@ -26,6 +26,8 @@ TITANIC @ [REIMERSHOLME HOTEL](https://reimersholmehotel.se/)
 <http://aaaaaaa.org/>
 
 <https://www.labiennale.org/en/art/2019/partecipants/antoine-catala>
+
+<https://www.marlboroughgallery.com/exhibitions/antoine-catala-everything-is-ok-season-2>
 [](https://www.47canal.us/artists/antoine-catala)
 
 <https://www.47canal.us/artists/antoine-catala>
