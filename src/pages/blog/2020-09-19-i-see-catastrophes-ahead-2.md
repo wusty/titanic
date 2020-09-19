@@ -25,6 +25,8 @@ TITANIC @ [REIMERSHOLME HOTEL](https://reimersholmehotel.se/)
 
 <http://aaaaaaa.org/>
 
+<https://bombmagazine.org/articles/antoine-catala-and-dan-graham/>
+
 <https://www.labiennale.org/en/art/2019/partecipants/antoine-catala>
 
 <https://www.marlboroughgallery.com/exhibitions/antoine-catala-everything-is-ok-season-2>
