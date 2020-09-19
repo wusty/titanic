@@ -7,3 +7,5 @@ tags:
   - serving library
 ---
 ![](/img/endless-combinations_a.png)
+
+![](/img/endless-combinations_b.png)
