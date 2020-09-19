@@ -7,7 +7,7 @@ description: |+
 
 
 
-featuredpost: true
+featuredpost: false
 featuredimage: ""
 tags:
   - antoine catala
