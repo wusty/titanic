@@ -47,9 +47,11 @@ export default class Index extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            <div className="content">
-              <h1>Connect</h1>
-              <a href="mailto:info@titanic.nu">info@titantic.nu</a>
+            <div className="content" style={{ marginLeft: '200px' }}>
+              <h1>
+                <a href="mailto:info@titanic.nu">info@titantic.nu</a>
+              </h1>
+
               {!this.state.showMoreText && (
                 <div style={style}>
                   <input

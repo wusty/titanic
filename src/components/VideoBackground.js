@@ -1,13 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react'
+import oceanLofi from '../img/ocean-lofi.mp4'
 
 const VideoBackground = () => {
   const href = typeof window !== `undefined` ? window.location.href : ''
   const [isBlogPage, setIsBlogPage] = useState(href.includes('/blog'))
   const [isConnectPage, setIsConnectPage] = useState(href.includes('/connect'))
+  const [isArchivePage, setIsArchivePage] = useState(href.includes('/archive'))
   const videoElementRef = useRef(null)
+
   useEffect(() => {
     if (videoElementRef.current) {
-      console.log('setting playback rate')
       videoElementRef.current.playbackRate = 0.1
     }
   }, [])
@@ -20,13 +22,19 @@ const VideoBackground = () => {
     if (href.includes('/connect') && !isConnectPage) {
       setIsConnectPage(true)
     }
-  }, [href, isBlogPage, isConnectPage])
+
+    if (href.includes('/archive') && !isArchivePage) {
+      setIsArchivePage(true)
+    }
+  }, [href, isBlogPage, isConnectPage, isArchivePage])
 
   return (
     <div
       className={`video-image-color-fill ${
         isBlogPage ? 'blog-background' : ''
-      } ${isConnectPage ? 'connect-background' : ''}`}
+      } ${isConnectPage ? 'connect-background' : ''}${
+        isArchivePage ? 'archive-background' : ''
+      }`}
     >
       <video
         ref=""
@@ -39,7 +47,7 @@ const VideoBackground = () => {
         id="bgvid"
         ref={videoElementRef}
       >
-        <source src="/img/ocean.mp4" type="video/mp4" />
+        <source src={oceanLofi} type="video/mp4" />
       </video>
     </div>
   )
