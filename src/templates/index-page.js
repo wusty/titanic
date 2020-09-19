@@ -5,7 +5,6 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import VideoBackground from '../components/VideoBackground'
 
 export const IndexPageTemplate = ({
   image,
@@ -17,7 +16,6 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <VideoBackground />
     {/* <div
       className="full-width-image margin-top-0"
       style={{

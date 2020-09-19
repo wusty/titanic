@@ -1,6 +1,9 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 const VideoBackground = () => {
+  const [isBlogPage, setIsBlogPage] = useState(
+    window.location.href.includes('/blog')
+  )
   const videoElementRef = useRef(null)
   useEffect(() => {
     if (videoElementRef.current) {
@@ -9,22 +12,35 @@ const VideoBackground = () => {
     }
   }, [])
 
+  useEffect(() => {
+    if (window.location.href.includes('/blog') && !isBlogPage) {
+      setIsBlogPage(true)
+    }
+  }, [])
+
   return (
-    <video
-      ref=""
-      className="video-image-container"
-      playsInline
-      autoPlay
-      muted
-      loop
-      poster="ocean.png"
-      id="bgvid"
-      ref={videoElementRef}
+    <div
+      className={`video-image-color-fill ${isBlogPage ? 'red-background' : ''}`}
     >
-      {/* <source src="polina.webm" type="video/webm" /> */}
-      <source src="/img/ocean.mp4" type="video/mp4" />
-    </video>
+      <video
+        ref=""
+        className="video-image-container"
+        playsInline
+        autoPlay
+        muted
+        loop
+        poster="ocean.png"
+        id="bgvid"
+        ref={videoElementRef}
+      >
+        <source src="/img/ocean.mp4" type="video/mp4" />
+      </video>
+    </div>
   )
 }
 
 export default VideoBackground
+
+{
+  /* <source src="polina.webm" type="video/webm" /> */
+}
