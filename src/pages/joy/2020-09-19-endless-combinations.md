@@ -8,6 +8,6 @@ tags:
 ---
 First Published: <http://www.servinglibrary.org/journal/9/endless-combinations>
 
-![](/img/endless-combinations_a.png)
-
 ![](/img/endless-combinations_b.png)
+
+![](/img/endless-combinations_a.png)
