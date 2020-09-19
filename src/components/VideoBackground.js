@@ -20,7 +20,7 @@ const VideoBackground = () => {
     if (href.includes('/connect') && !isConnectPage) {
       setIsConnectPage(true)
     }
-  }, [])
+  }, [href, isBlogPage, isConnectPage])
 
   return (
     <div
