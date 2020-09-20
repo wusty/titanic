@@ -3,11 +3,10 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-class JoyRoll extends React.Component {
+class MiscRoll extends React.Component {
   render() {
     const { data, numberOfPosts } = this.props
     const { edges: posts } = data.allMarkdownRemark
-    console.log('j9oy roll', posts)
 
     const filteredPosts = posts.slice(0, numberOfPosts)
     // console.log('filteredPosts: ', filteredPosts)
@@ -63,7 +62,7 @@ class JoyRoll extends React.Component {
   }
 }
 
-JoyRoll.propTypes = {
+MiscRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -74,10 +73,10 @@ JoyRoll.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query JoyRollPosts {
+      query MiscRollPosts {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "joy-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "misc-post" } } }
         ) {
           edges {
             node {
@@ -105,7 +104,7 @@ export default () => (
       }
     `}
     render={(data, count) => {
-      return <JoyRoll data={data} count={count} />
+      return <MiscRoll data={data} count={count} />
     }}
   />
 )

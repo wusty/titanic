@@ -1,5 +1,5 @@
 ---
-templateKey: joy-post
+templateKey: misc-post
 title: Endless Combinations
 date: 2020-09-19T20:13:47.024Z
 tags:

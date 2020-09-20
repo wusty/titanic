@@ -8,7 +8,7 @@ const VideoBackground = () => {
   const [isCataloguePage, setIsCataloguePage] = useState(
     href.includes('/catalogue')
   )
-  const [isJoyPage, setIsJoyPage] = useState(href.includes('/joy'))
+  const [isMiscPage, setIsMiscPage] = useState(href.includes('/misc'))
   const videoElementRef = useRef(null)
 
   useEffect(() => {
@@ -30,8 +30,8 @@ const VideoBackground = () => {
       setIsCataloguePage(true)
     }
 
-    if (href.includes('/joy') && !isJoyPage) {
-      setIsJoyPage(true)
+    if (href.includes('/misc') && !isMiscPage) {
+      setIsMiscPage(true)
     }
   }, [href, isBlogPage, isConnectPage, isCataloguePage])
 
@@ -41,7 +41,7 @@ const VideoBackground = () => {
         isBlogPage ? 'blog-background' : ''
       } ${isConnectPage ? 'connect-background' : ''}${
         isCataloguePage ? 'catalogue-background' : ''
-      }${isJoyPage ? 'joy-background' : ''}`}
+      }${isMiscPage ? 'misc-background' : ''}`}
     >
       <video
         ref=""

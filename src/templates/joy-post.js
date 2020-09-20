@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const JoyPostTemplate = ({
+export const MiscPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -45,7 +45,7 @@ export const JoyPostTemplate = ({
   )
 }
 
-JoyPostTemplate.propTypes = {
+MiscPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -53,12 +53,12 @@ JoyPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const JoyPost = ({ data }) => {
+const MiscPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <JoyPostTemplate
+      <MiscPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
@@ -78,16 +78,16 @@ const JoyPost = ({ data }) => {
   )
 }
 
-JoyPost.propTypes = {
+MiscPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default JoyPost
+export default MiscPost
 
 export const pageQuery = graphql`
-  query JoyPostById($id: String!) {
+  query MiscPostById($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

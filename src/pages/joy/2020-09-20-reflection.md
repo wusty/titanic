@@ -1,5 +1,5 @@
 ---
-templateKey: joy-post
+templateKey: misc-post
 title: Head on a Silver Plate
 date: 2020-09-20T11:34:25.657Z
 tags:
