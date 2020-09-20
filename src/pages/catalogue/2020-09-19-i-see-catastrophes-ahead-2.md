@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: catalogue-post
 title: I See Catastrophes Ahead
 date: 2020-09-19T16:02:38.602Z
 description: |+

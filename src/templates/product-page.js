@@ -173,16 +173,16 @@ export const productPageQuery = graphql`
         heading
         description
         intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
+          # blurbs {
+          #   image {
+          #     childImageSharp {
+          #       fluid(maxWidth: 240, quality: 64) {
+          #         ...GatsbyImageSharpFluid
+          #       }
+          #     }
+          #   }
+          #   text
+          # }
           heading
           description
         }
@@ -234,12 +234,12 @@ export const productPageQuery = graphql`
         pricing {
           heading
           description
-          plans {
-            description
-            items
-            plan
-            price
-          }
+          # plans {
+          #   description
+          #   items
+          #   plan
+          #   price
+          # }
         }
       }
     }
