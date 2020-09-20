@@ -2,17 +2,15 @@
 templateKey: joy-post
 title: reflection
 date: 2020-09-20T11:34:25.657Z
-featuredimage: /img/salome_img-.jpg
+featuredimage: ""
 tags:
   - salome
 ---
+![](/img/salome_img-.jpg)
+
 *”Dance for me, Salome and whatsoever thou shalt ask for me I will give it thee, even into the half of my kingdom”*
 
-
-
 **A reflection on the role of the contemporary artist** 
-
-
 
 As the violent story of John the Baptist's death unfolds in the New Testament, it ewokes the notion of how the present – blury and difficult to grasp –suddenly can appear with sharp contours in the light of a historical moment. In the study of how Georges Rochegrosse (1887) portrayed “the Dance of the Seven Veils” wich is the central part of this bloody drama, a depressing truth about today's artist role emerges in all its clarity. 
 Various aspects of this morbid narrative have been reproduced countless times by many artists, in many eras, in many countries. Writers and filmmakers have explored its dramatic qualities and psychological implications. But no one has done it like the French painter when he depicts the particular scene, in which Salome dances for Herod in exchange for John the Baptist's head on a silver platter.
