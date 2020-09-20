@@ -8,14 +8,14 @@ description: |+
 
 
 featuredpost: true
-featuredimage: ""
 tags:
   - antoine catala
   - contemporary art
   - stockholm
   - reimersholme hotel
 ---
-October 13th – November 1st 
+
+October 13th – November 1st
 
 TITANIC @ [REIMERSHOLME HOTEL](https://reimersholmehotel.se/)
 
