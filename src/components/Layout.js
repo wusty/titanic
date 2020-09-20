@@ -5,13 +5,10 @@ import Navbar from '../components/Navbar'
 import './all.sass'
 import VideoBackground from '../components/VideoBackground'
 import useSiteMetadata from './SiteMetadata'
-import { withPrefix, parsePath } from 'gatsby'
+import { withPrefix } from 'gatsby'
 
 const Layout = ({ children }) => {
-  const path = parsePath()
-  console.log('path: ', path)
   const { title, description } = useSiteMetadata()
-  console.log('Layout: ', Layout)
   return (
     <div>
       <Helmet>

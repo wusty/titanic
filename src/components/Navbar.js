@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Location } from '@reach/router'
+
 import logo from '../img/titanic-logo.gif'
 import logoFrame from '../img/titanic-logo-frame_10_delay-0.1s.gif'
 
@@ -35,8 +37,13 @@ const Navbar = class extends React.Component {
     )
   }
 
+  getSource = () => {
+    console.log('this.props.location.pathname: ', this.props.location.pathname)
+    return this.props.location.pathname === '/' ? logo : logoFrame
+  }
+
   render() {
-    debugger
+    console.log('render navbar with props', this.props)
     return (
       <nav
         className="navbar is-transparent"
@@ -46,7 +53,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="" title="Logo">
-              <img src={logo} width="256" height="192" />
+              <img src={this.getSource()} width="128" height="96" />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -89,4 +96,8 @@ const Navbar = class extends React.Component {
   }
 }
 
-export default Navbar
+export default (props) => (
+  <Location>
+    {(locationProps) => <Navbar {...locationProps} {...props} />}
+  </Location>
+)
