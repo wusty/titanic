@@ -33,12 +33,12 @@ collections:
           widget: 'boolean',
           required: false,
         }
-      - {
-          label: 'Featured Image',
-          name: 'featuredimage',
-          widget: image,
-          required: false,
-        }
+      # - {
+      #     label: 'Featured Image',
+      #     name: 'featuredimage',
+      #     widget: image,
+      #     required: false,
+      #   }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
 
@@ -63,12 +63,12 @@ collections:
           widget: 'boolean',
           required: false,
         }
-      - {
-          label: 'Featured Image',
-          name: 'featuredimage',
-          widget: image,
-          required: false,
-        }
+      # - {
+      #     label: 'Featured Image',
+      #     name: 'featuredimage',
+      #     widget: image,
+      #     required: false,
+      #   }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
 
