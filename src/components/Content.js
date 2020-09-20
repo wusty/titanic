@@ -1,8 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+const replaceAll = ''.replaceAll
+  ? (str, find, rep) => str.replaceAll(find, rep)
+  : (str, find, rep) => str.split(find).join(rep)
+
 export const HTMLContent = ({ content, className }) => {
-  const replacedString = content.replaceAll('<a ', '<a target="_blank" ')
+  const replacedString = replaceAll(content, '<a ', '<a target="_blank" ')
   return (
     <div
       className={className}

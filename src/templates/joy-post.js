@@ -15,7 +15,6 @@ export const JoyPostTemplate = ({
   helmet,
 }) => {
   const PostContent = contentComponent || Content
-
   return (
     <section className="section">
       {helmet || ''}
@@ -54,7 +53,7 @@ JoyPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const JoyPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -79,13 +78,13 @@ const BlogPost = ({ data }) => {
   )
 }
 
-BlogPost.propTypes = {
+JoyPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default JoyPost
 
 export const pageQuery = graphql`
   query JoyPostById($id: String!) {
