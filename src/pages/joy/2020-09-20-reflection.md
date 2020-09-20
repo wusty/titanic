@@ -5,6 +5,18 @@ date: 2020-09-20T11:34:25.657Z
 featuredimage: ""
 tags:
   - salome
+  - contemporary art
+  - decapitation
+  - titanic
+  - titanic4u
+  - linus elmes
+  - tova mozard
+  - ana hernandez
+  - herodes
+  - painting
+  - cluster fuck
+  - art history
+  - inferno
 ---
 ![](/img/salome_img-.jpg)
 
