@@ -5,7 +5,9 @@ const VideoBackground = () => {
   const href = typeof window !== `undefined` ? window.location.href : ''
   const [isBlogPage, setIsBlogPage] = useState(href.includes('/blog'))
   const [isConnectPage, setIsConnectPage] = useState(href.includes('/connect'))
-  const [isArchivePage, setIsArchivePage] = useState(href.includes('/archive'))
+  const [isCataloguePage, setIsCataloguePage] = useState(
+    href.includes('/catalogue')
+  )
   const [isJoyPage, setIsJoyPage] = useState(href.includes('/joy'))
   const videoElementRef = useRef(null)
 
@@ -24,21 +26,21 @@ const VideoBackground = () => {
       setIsConnectPage(true)
     }
 
-    if (href.includes('/archive') && !isArchivePage) {
-      setIsArchivePage(true)
+    if (href.includes('/catalogue') && !isCataloguePage) {
+      setIsCataloguePage(true)
     }
 
     if (href.includes('/joy') && !isJoyPage) {
       setIsJoyPage(true)
     }
-  }, [href, isBlogPage, isConnectPage, isArchivePage])
+  }, [href, isBlogPage, isConnectPage, isCataloguePage])
 
   return (
     <div
       className={`video-image-color-fill ${
         isBlogPage ? 'blog-background' : ''
       } ${isConnectPage ? 'connect-background' : ''}${
-        isArchivePage ? 'archive-background' : ''
+        isCataloguePage ? 'catalogue-background' : ''
       }${isJoyPage ? 'joy-background' : ''}`}
     >
       <video

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/titanic-logo.gif'
+import logoFrame from '../img/titanic-logo-frame_10_delay-0.1s.gif'
 
 // import github from '../img/github-icon.svg'
 // import logo from '../img/logo.svg'
@@ -35,6 +36,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    debugger
     return (
       <nav
         className="navbar is-transparent"
@@ -58,29 +60,28 @@ const Navbar = class extends React.Component {
             </div>
           </div>
           <div
+            style={{ justifyContent: 'space-around' }}
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              {/* <Link className="navbar-item" to="/about">
+            {/* <Link className="navbar-item" to="/about">
                 About
               </Link>
               <Link className="navbar-item" to="/products">
                 Products
               </Link> */}
-              <Link className="navbar-item" to="/archive">
-                Archive
-              </Link>
-              <Link className="navbar-item" to="/connect">
-                Connect
-              </Link>
-              <Link className="navbar-item" to="/joy">
-                Joy
-              </Link>
-              {/* <Link className="navbar-item" to="/contact/examples">
+            <Link className="navbar-item" to="/catalogue">
+              Catalogue
+            </Link>
+            <Link className="navbar-item" to="/joy">
+              Misc.
+            </Link>
+            <Link className="navbar-item" to="/connect">
+              Connect
+            </Link>
+            {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link> */}
-            </div>
           </div>
         </div>
       </nav>
