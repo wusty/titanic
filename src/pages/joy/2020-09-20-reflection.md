@@ -12,7 +12,7 @@ tags:
 
 **A reflection on the role of the contemporary artist** 
 
-As the violent story of John the Baptist's death unfolds in the New Testament, it ewokes the notion of how the present – blury and difficult to grasp –suddenly can appear with sharp contours in the light of a historical moment. In the study of how Georges Rochegrosse (1887) portrayed “the Dance of the Seven Veils” which is the central part of this bloody drama, a depressing truth about today's artist role emerges in all its clarity. 
+As the violent story of John the Baptist's death unfolds in the New Testament, it provokes the notion of how the present – blur and difficult to grasp –suddenly can appear with sharp contours in the light of a historical moment. In the study of how Georges Rochegrosse (1887) portrayed “the Dance of the Seven Veils” which is the central part of this bloody drama, a depressing truth about today's artist role emerges in all its clarity. 
 Various aspects of this morbid narrative have been reproduced countless times by many artists, in many eras, in many countries. Writers and filmmakers have explored its dramatic qualities and psychological implications. But no one has done it like the French painter when he depicts the particular scene, in which Salome dances for Herod in exchange for John the Baptist's head on a silver platter.
 The ruler, King Herod who married his brother's wife, Salome's mother Herodia, had John imprisoned for his criticism of the marriage. Salome dances seductively, in a visual precursor to lap-dance for the horny king who excitedly promises Salome to fulfill her highest wish that turns out to be the above-mentioned decapitation including the excessive delivery of the head.
 
