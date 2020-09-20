@@ -1,6 +1,6 @@
 ---
 templateKey: joy-post
-title: reflection
+title: Head on a Silver Plate
 date: 2020-09-20T11:34:25.657Z
 featuredimage: ""
 tags:
