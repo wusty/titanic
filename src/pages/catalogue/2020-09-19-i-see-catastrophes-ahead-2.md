@@ -7,7 +7,7 @@ description: |+
 
 
 
-featuredpost: false
+featuredpost: true
 tags:
   - antoine catala
   - contemporary art
