@@ -2,6 +2,7 @@ import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
 import globe from '../../img/titanic-globe.gif'
+import instagram from '../../img/social/instagram.svg'
 
 function encode(data) {
   return Object.keys(data)
@@ -47,9 +48,26 @@ export default class Index extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            <div className="content" style={{ marginLeft: '200px' }}>
-              <h1>
+            <div className="content">
+              <h1
+                className="columns is-mobile"
+                style={{ display: 'flex', justifyContent: 'space-between' }}
+              >
                 <a href="mailto:info@titanic.nu">info@titantic.nu</a>
+                <a
+                  className="instagram-icon"
+                  target="_blank"
+                  title="instagram"
+                  href="https://instagram.com/titanic4u"
+                >
+                  <img
+                    width="32"
+                    src={instagram}
+                    alt="Instagram"
+                    style={{ verticalAlign: 'bottom' }}
+                  />
+                  {/* <span>@titanic4u</span> */}
+                </a>
               </h1>
 
               {!this.state.showMoreText && (

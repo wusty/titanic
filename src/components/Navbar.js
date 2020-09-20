@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import instagram from '../img/social/instagram.svg'
 import logo from '../img/titanic-logo.gif'
 
 // import github from '../img/github-icon.svg'
@@ -81,24 +80,6 @@ const Navbar = class extends React.Component {
               {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link> */}
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item columns"
-                target="_blank"
-                title="instagram"
-                href="https://instagram.com/titanic4u"
-                style={{ color: 'black' }}
-              >
-                <div className="column">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '100%', height: '1em' }}
-                  />
-                  <span>@titanic4u</span>
-                </div>
-              </a>
             </div>
           </div>
         </div>
