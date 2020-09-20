@@ -17,10 +17,9 @@ tags:
   - art history
   - inferno
 ---
-
 ![](/img/salome_img-.jpg)
 
-_”Dance for me, Salome and whatsoever thou shalt ask for me I will give it thee, even into the half of my kingdom”_
+*”Dance for me, Salome and whatsoever thou shalt ask for me I will give it thee, even into the half of my kingdom”*
 
 **A reflection on the role of the contemporary artist**
 
