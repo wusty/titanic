@@ -38,12 +38,10 @@ const Navbar = class extends React.Component {
   }
 
   getSource = () => {
-    console.log('this.props.location.pathname: ', this.props.location.pathname)
     return this.props.location.pathname === '/' ? logo : logoFrame
   }
 
   render() {
-    console.log('render navbar with props', this.props)
     return (
       <nav
         className="navbar is-transparent"
