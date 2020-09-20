@@ -91,7 +91,7 @@ export const IndexPageTemplate = ({
                   {/* <h3 className="has-text-weight-semibold is-size-2">
                     Latest posts
                   </h3> */}
-                  <BlogRoll numberOfPosts={4} isStartPage />
+                  <BlogRoll numberOfPosts={4} />
                   {/* <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/archive">
                       Read more / go to archive

@@ -10,7 +10,7 @@ export default class JoyPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <JoyRoll isStartPage={false} />
+              <JoyRoll />
             </div>
           </div>
         </section>

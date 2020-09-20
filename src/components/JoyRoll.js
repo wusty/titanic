@@ -5,7 +5,7 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class JoyRoll extends React.Component {
   render() {
-    const { data, numberOfPosts, isStartPage } = this.props
+    const { data, numberOfPosts } = this.props
     const { edges: posts } = data.allMarkdownRemark
     console.log('j9oy roll', posts)
 

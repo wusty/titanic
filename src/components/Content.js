@@ -1,9 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export const HTMLContent = ({ content, className }) => (
-  <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
-)
+export const HTMLContent = ({ content, className }) => {
+  const replacedString = content.replaceAll('<a ', '<a target="_blank" ')
+  return (
+    <div
+      className={className}
+      dangerouslySetInnerHTML={{ __html: replacedString }}
+    />
+  )
+}
 
 const Content = ({ content, className }) => (
   <div className={className}>{content}</div>

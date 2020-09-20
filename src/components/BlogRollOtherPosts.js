@@ -5,7 +5,7 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
   render() {
-    const { data, numberOfPosts, isStartPage } = this.props
+    const { data, numberOfPosts } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     const filteredPosts = posts.slice(0, numberOfPosts)
