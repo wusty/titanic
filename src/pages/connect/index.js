@@ -3,6 +3,8 @@ import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
 import globe from '../../img/titanic-globe.gif'
 import instagram from '../../img/social/instagram.svg'
+import mailIcon from '../../img/email-icon.svg'
+
 import VideoBackground from '../../components/VideoBackground'
 
 function encode(data) {
@@ -11,11 +13,6 @@ function encode(data) {
     .join('&')
 }
 
-const style = {
-  marginTop: '40px',
-  position: 'absolute',
-  left: '45%',
-}
 export default class Index extends React.Component {
   constructor(props) {
     super(props)
@@ -51,11 +48,33 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1
+              <div
                 className="columns is-mobile"
-                style={{ display: 'flex', justifyContent: 'space-between' }}
+                style={{
+                  marginTop: '40px',
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                }}
               >
-                <a href="mailto:info@titanic.nu">info@titantic.nu</a>
+                <a
+                  className="email-icon fa fa-mail"
+                  href="mailto:info@titanic.nu"
+                >
+                  <span className="icon">
+                    <img src={mailIcon} width="32" alt="email"></img>
+                  </span>
+                </a>
+
+                {!this.state.showMoreText && (
+                  <div>
+                    <input
+                      type="image"
+                      style={{ marginTop: '40px' }}
+                      src={globe}
+                      onClick={this.handleClickMore}
+                    ></input>
+                  </div>
+                )}
                 <a
                   className="instagram-icon"
                   target="_blank"
@@ -63,6 +82,7 @@ export default class Index extends React.Component {
                   href="https://instagram.com/titanic4u"
                 >
                   <img
+                    style={{ marginTop: '40px' }}
                     width="32"
                     src={instagram}
                     alt="Instagram"
@@ -70,19 +90,15 @@ export default class Index extends React.Component {
                   />
                   {/* <span>@titanic4u</span> */}
                 </a>
-              </h1>
+              </div>
 
-              {!this.state.showMoreText && (
-                <div style={style}>
-                  <input
-                    type="image"
-                    src={globe}
-                    onClick={this.handleClickMore}
-                  ></input>
-                </div>
-              )}
               {this.state.showMoreText && (
-                <p style={style}>
+                <p
+                  style={{
+                    position: 'absolute',
+                    left: '45%',
+                  }}
+                >
                   Ay Ay, there is no Captain. All actions on bridge deck are
                   taken by affirmative consensus. Titanic is about the
                   despicable desire to fill the void. Everyone is important and
