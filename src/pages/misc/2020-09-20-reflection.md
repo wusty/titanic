@@ -23,7 +23,7 @@ tags:
 
 **The role of the artist**
 
-The present, sometimes blur and difficult to grasp can suddenly appear with sharp contours in the light of a historical moment. As the violent story of John the Baptist's death from the New Testament unfolds in Georges Rochegrosse's (1887) painting “Salome Dancing Before King Herod, a depressing truth about today's artist role emerges in all its clarity.
+The present, sometimes blur and difficult to grasp can suddenly appear with sharp contours in the light of a historical moment. As the violent story of John the Baptist's death from the New Testament unfolds in Georges Rochegrosse's (1887) painting “Salome Dancing Before King Herod", a depressing truth about today's artist role emerges in all its clarity.
 
 Various aspects of this morbid narrative have been reproduced countless times by many artists, in many eras, in many countries. Writers and filmmakers have explored its dramatic qualities and psychological implications. But no one has done it like the French painter when he depicts the particular scene, in which Salome dances for Herod in exchange for John the Baptist's head on a silver platter.
 
@@ -37,3 +37,5 @@ Rochegrosse allows us to see the spirit of a precarious dilemma that lived unhin
 Linus Elmes 
 
 Bernshammar, 2020
+
+![](/img/n932465.gif)
