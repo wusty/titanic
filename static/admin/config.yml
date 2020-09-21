@@ -58,7 +58,7 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       # - {label: "Description", name: "description", widget: "text"}
       - {
-          label: 'Featured Post',
+          label: 'Featured Post (uncheck to move to catalogue)',
           name: 'featuredpost',
           widget: 'boolean',
           required: false,
@@ -73,7 +73,7 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list' }
 
   - name: 'pages'
-    label: 'Pages'
+    label: 'Pages (DO NOT EDIT THIS)'
     files:
       - file: 'src/pages/index.md'
         label: 'Landing Page'

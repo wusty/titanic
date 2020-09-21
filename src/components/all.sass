@@ -31,10 +31,14 @@ a.has-text-primary:hover, a.has-text-primary:focus
 .navbar-item
   font-weight: 700
   color: $black!important
+  text-transform: uppercase
+  transition: all .2s ease-in-out
 
-.navbar-item:hover
-  font-weight: 900
-  font-size: 18px
+.navbar-brand
+  transition: all .2s ease-in-out
+
+.navbar-item:hover, .navbar-brand:hover
+  transform: scale(1.4)
 
 .navbar .navbar-menu
   box-shadow:none !important

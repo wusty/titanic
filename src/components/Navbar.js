@@ -49,9 +49,9 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="container">
-          <div className="navbar-brand">
+          <div className="navbar-brand" style={{ padding: '0.5rem 0.75rem' }}>
             <Link to="/" className="" title="Logo">
-              <img src={this.getSource()} width="128" height="96" />
+              <img src={this.getSource()} width="112" height="84" />
             </Link>
             {/* Hamburger menu */}
             <div
