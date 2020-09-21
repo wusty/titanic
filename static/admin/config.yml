@@ -58,7 +58,7 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       # - {label: "Description", name: "description", widget: "text"}
       - {
-          label: 'Featured Post (uncheck to move to catalogue)',
+          label: 'Show on start page (uncheck to move to misc)',
           name: 'featuredpost',
           widget: 'boolean',
           required: false,
