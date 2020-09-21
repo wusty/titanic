@@ -37,3 +37,5 @@ Rochegrosse allows us to see the spirit of a precarious dilemma that lived unhin
 Linus Elmes 
 
 Bernshammar, 2020
+
+![](/img/n932465.gif)
