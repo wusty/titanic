@@ -21,7 +21,9 @@ tags:
 
 *”Dance for me, Salome and whatsoever thou shalt ask for me I will give it thee, even into the half of my kingdom”*
 
-**The role of the artist**
+
+
+
 
 The present, sometimes blur and difficult to grasp can suddenly appear with sharp contours in the light of a historical moment. As the violent story of John the Baptist's death from the New Testament unfolds in Georges Rochegrosse's (1887) painting “Salome Dancing Before King Herod", a depressing truth about today's artist role emerges in all its clarity.
 
@@ -38,4 +40,4 @@ Linus Elmes
 
 Bernshammar, 2020
 
-![](/img/n932465.gif)
+![]()
