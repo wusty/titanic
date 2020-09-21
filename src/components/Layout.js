@@ -54,7 +54,6 @@ const Layout = ({ children }) => {
       // className="video-background-container"
       // style={{ backgroundImage: 'url("/img/fallback-image.png"' }}
       >
-        <VideoBackground />
         {children}
       </div>
       <Footer />

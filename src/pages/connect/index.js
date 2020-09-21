@@ -3,6 +3,7 @@ import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
 import globe from '../../img/titanic-globe.gif'
 import instagram from '../../img/social/instagram.svg'
+import VideoBackground from '../../components/VideoBackground'
 
 function encode(data) {
   return Object.keys(data)
@@ -46,6 +47,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+        <VideoBackground />
         <section className="section">
           <div className="container">
             <div className="content">
