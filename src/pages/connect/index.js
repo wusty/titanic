@@ -53,20 +53,18 @@ export default class Index extends React.Component {
                 style={{
                   marginTop: '40px',
                   display: 'flex',
-                  justifyContent: 'space-between',
+                  justifyContent: 'space-around',
                 }}
               >
                 <a
-                  className="email-icon fa fa-mail"
+                  className="align-self-center email-icon fa fa-mail"
                   href="mailto:info@titanic.nu"
                 >
-                  <span className="icon">
-                    <img src={mailIcon} width="32" alt="email"></img>
-                  </span>
+                  <img src={mailIcon} width="64" alt="email"></img>
                 </a>
 
                 {!this.state.showMoreText && (
-                  <div>
+                  <div className="align-self-center ">
                     <input
                       type="image"
                       style={{ marginTop: '40px' }}
@@ -76,14 +74,14 @@ export default class Index extends React.Component {
                   </div>
                 )}
                 <a
-                  className="instagram-icon"
+                  className="align-self-center instagram-icon"
                   target="_blank"
                   title="instagram"
                   href="https://instagram.com/titanic4u"
                 >
                   <img
                     style={{ marginTop: '40px' }}
-                    width="32"
+                    width="64"
                     src={instagram}
                     alt="Instagram"
                     style={{ verticalAlign: 'bottom' }}
