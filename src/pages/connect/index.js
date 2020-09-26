@@ -89,27 +89,35 @@ export default class Index extends React.Component {
                   {/* <span>@titanic4u</span> */}
                 </a>
               </div>
-
-              {this.state.showMoreText && (
-                <p
-                  style={{
-                    position: 'absolute',
-                    left: '45%',
-                  }}
-                >
-                  Ay Ay, there is no Captain. All actions on bridge deck are
-                  taken by affirmative consensus. Titanic is about the
-                  despicable desire to fill the void. Everyone is important and
-                  nobody is important. Titanic is a refuge for cultures and
-                  anti-cultures. Titanic makes no difference between fashion and
-                  fermentation, paraphernalia and painting, scavenging and
-                  sculpture, politics and pictorial composition. A work of art
-                  is worth nothing and all art is priceless. On the journey
-                  towards annihilation we are committed to program mayhem. All
-                  our actions take us closer to havoc. We accept this as our
-                  destiny.
-                </p>
-              )}
+              <div className="columns is-mobile">
+                <div className="column">
+                  {this.state.showMoreText && (
+                    <>
+                      <p
+                        style={{
+                          backgroundColor: 'white',
+                          // position: 'absolute',
+                          // left: '45%',
+                          padding: '2rem',
+                        }}
+                      >
+                        Ay Ay, there is no Captain. All actions on bridge deck
+                        are taken by affirmative consensus. Titanic is about the
+                        despicable desire to fill the void. Everyone is
+                        important and nobody is important. Titanic is a refuge
+                        for cultures and anti-cultures. Titanic makes no
+                        difference between fashion and fermentation,
+                        paraphernalia and painting, scavenging and sculpture,
+                        politics and pictorial composition. A work of art is
+                        worth nothing and all art is priceless. On the journey
+                        towards annihilation we are committed to program mayhem.
+                        All our actions take us closer to havoc. We accept this
+                        as our destiny.
+                      </p>
+                    </>
+                  )}
+                </div>
+              </div>
               {/* <form
                 name="connect"
                 method="post"
