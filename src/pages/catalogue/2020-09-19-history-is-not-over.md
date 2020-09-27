@@ -9,6 +9,9 @@ tags:
   - stockholm
   - contemporary art
   - reimersholme hotel
+  - protest
+  - poetry
+  - the strike
 ---
 *@* [Reimersholme hotel](https://reimersholmehotel.se/)
 
