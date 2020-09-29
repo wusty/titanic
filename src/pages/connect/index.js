@@ -56,12 +56,12 @@ export default class Index extends React.Component {
                   justifyContent: 'space-around',
                 }}
               >
-                {/* <a
+                <a
                   className="align-self-center email-icon fa fa-mail"
                   href="mailto:info@titanic.nu"
                 >
                   <img src={mailIcon} width="64" alt="email"></img>
-                </a> */}
+                </a>
 
                 {!this.state.showMoreText && (
                   <div className="align-self-center ">
