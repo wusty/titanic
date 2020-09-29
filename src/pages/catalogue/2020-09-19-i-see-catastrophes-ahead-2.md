@@ -26,6 +26,8 @@ Exhibition open: October 18th – November 1st
 
 <http://aaaaaaa.org/>
 
+<https://vimeo.com/120546572>
+
 <https://bombmagazine.org/articles/antoine-catala-and-dan-graham/>
 
 <https://www.labiennale.org/en/art/2019/partecipants/antoine-catala>
