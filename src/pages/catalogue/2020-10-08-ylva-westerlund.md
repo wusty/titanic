@@ -15,3 +15,5 @@ tags:
 UPCOMING NOVEMBER
 
 Curator: Tova Mozard
+
+<https://ylvawesterlund.blogspot.com>
