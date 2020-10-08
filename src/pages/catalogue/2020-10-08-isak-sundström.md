@@ -21,3 +21,5 @@ tags:
 UPCOMING DECEMBER
 
 Curator: Ana Hernandez
+
+<https://www.isaksundstrom.com/info/>
