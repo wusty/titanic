@@ -1,6 +1,6 @@
 ---
 templateKey: catalogue-post
-title: YLVA WESTERLUND
+title: Ylva Westerlund
 date: 2020-10-08T19:02:33.928Z
 featuredpost: true
 tags:
@@ -14,4 +14,4 @@ tags:
 ---
 UPCOMING NOVEMBER
 
-CURATOR: TOVA MOZARD
+Curator: Tova Mozard
