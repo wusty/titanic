@@ -1,14 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import oceanLofi from '../img/ocean-lofi.mp4'
 
 const VideoBackground = () => {
-  const href = typeof window !== `undefined` ? window.location.href : ''
-  const [isBlogPage, setIsBlogPage] = useState(href.includes('/blog'))
-  const [isConnectPage, setIsConnectPage] = useState(href.includes('/connect'))
-  const [isCataloguePage, setIsCataloguePage] = useState(
-    href.includes('/catalogue')
-  )
-  const [isMiscPage, setIsMiscPage] = useState(href.includes('/misc'))
   const videoElementRef = useRef(null)
 
   useEffect(() => {
@@ -17,32 +10,8 @@ const VideoBackground = () => {
     }
   }, [])
 
-  useEffect(() => {
-    if (href.includes('/blog') && !isBlogPage) {
-      setIsBlogPage(true)
-    }
-
-    if (href.includes('/connect') && !isConnectPage) {
-      setIsConnectPage(true)
-    }
-
-    if (href.includes('/catalogue') && !isCataloguePage) {
-      setIsCataloguePage(true)
-    }
-
-    if (href.includes('/misc') && !isMiscPage) {
-      setIsMiscPage(true)
-    }
-  }, [href, isBlogPage, isConnectPage, isCataloguePage])
-
   return (
-    <div
-      className={`video-image-color-fill ${
-        isBlogPage ? 'blog-background' : ''
-      } ${isConnectPage ? 'connect-background' : ''}${
-        isCataloguePage ? 'catalogue-background' : ''
-      }${isMiscPage ? 'misc-background' : ''}`}
-    >
+    <div className="video-image-color-fill">
       <video
         ref=""
         className="video-image-container"

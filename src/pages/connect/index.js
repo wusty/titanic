@@ -44,7 +44,6 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <VideoBackground />
         <section className="section">
           <div className="container">
             <div className="content">

@@ -8,8 +8,6 @@ export default class MiscPage extends React.Component {
   render() {
     return (
       <Layout>
-        <VideoBackground />
-
         <section className="section">
           <div className="container">
             <div className="content">
