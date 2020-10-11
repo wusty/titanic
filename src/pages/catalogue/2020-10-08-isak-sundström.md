@@ -28,6 +28,6 @@ Curator: Ana Hernandez
 
 <https://www.isaksundstrom.com/454-2/>
 
-![]()
+![](/img/untitled-soffa-1024x768.jpg "Isak Sundström, Untitled 2020")
 
 [](https://www.isaksundstrom.com/454-2/)
