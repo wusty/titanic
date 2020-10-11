@@ -17,3 +17,5 @@ UPCOMING NOVEMBER
 Curator: Tova Mozard
 
 <https://ylvawesterlund.blogspot.com>
+
+<https://atelierforimplosivedesign.blogspot.com/>
