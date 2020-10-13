@@ -22,9 +22,9 @@ Adress: [](https://www.google.com/search?q=reimersholme+hotel+adress&stick=H4sIA
 
 Exhibition open: October 18th – November 1st
 
-**This venture is available in sync with opening hours at Reimersholme Hotel, further information and directions is available through the extraordinary sweat and helpful hotel staff in the reception or at the bar, welcome!**
+**This venture is available in sync with opening hours at Reimersholme Hotel, further information and directions is available through the extraordinary sweet and helpful hotel staff in the reception or at the bar, welcome!**
 
-Catala was among the first New York based artists to be labeled as “post-internet”. That claim came to be out of his obsession in how technology breaks down traditional bind between word and image, between the particular and the universal. His work focus on how the image infects the word, how the headline narrates the story, how the face (and ass) of things posit the truth. How a meme serves as the abbreviation - that signifies our inability to elaborate anything more because nothing more can be said. We've lost the words. So instead we meow. 
+Catala was among the first New York based artists to be labeled as “post-internet”. That claim came to be out of his obsession in how technology breaks down the traditional bind between word and image, between the particular and the universal. His work focus on how the image infects the word, how the headline narrates the story, how the face (and ass) of things posit the truth. How a meme serves as the abbreviation - that signifies our inability to elaborate anything more because nothing more can be said. We've lost the words. So instead we meow. 
 
 At a time when presidential elections can be won through the use of massive data collection and algorithmically personalized advertising and narcissistic messaging to a point where democracy as we know it is threatened, the work put forth is not the mere tongue-in-cheek pun it seems to present at first glance …
 
