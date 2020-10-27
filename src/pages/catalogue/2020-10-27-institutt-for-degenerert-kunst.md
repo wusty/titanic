@@ -9,4 +9,8 @@ tags:
 ---
 Upcoming coaction with The Institute For Degenerated Art, time and venue will be disclosed later.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hWdjqDtY-Fw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hWdjqDtY-Fw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
