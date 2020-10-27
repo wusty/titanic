@@ -1,6 +1,6 @@
 ---
 templateKey: catalogue-post
-title: I See Catastrophes Ahead                                    20.10.17
+title: "I See Catastrophes Ahead                                    "
 date: 2020-10-10T10:00:22.786Z
 description: |+
   ANTOINE CATALA
@@ -27,6 +27,8 @@ Exhibition open: October 18th – November 1st
 Catala was among the first New York based artists to be labeled as “post-internet”. That claim came to be out of his obsession in how technology breaks down the traditional bind between word and image, between the particular and the universal. His work focus on how the image infects the word, how the headline narrates the story, how the face (and ass) of things posit the truth. How a meme serves as the abbreviation - that signifies our inability to elaborate anything more because nothing more can be said. We've lost the words. So instead we meow. 
 
 At a time when presidential elections can be won through the use of massive data collection and algorithmically personalized advertising and narcissistic messaging to a point where democracy as we know it is threatened, the work put forth is not the mere tongue-in-cheek pun it seems to present at first glance …
+
+![]()
 
 <http://aaaaaaa.org/>
 
