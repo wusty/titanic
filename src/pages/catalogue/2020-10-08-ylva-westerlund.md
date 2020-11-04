@@ -16,7 +16,11 @@ tags:
 ---
 Exo migratory movements
 
-Opening: November 17th at Reimersholme Hotel
+Opening November 17th
+
+TITANIC @ [REIMERSHOLME HOTEL](https://reimersholmehotel.se/)
+
+Adress: [](https://www.google.com/search?q=reimersholme+hotel+adress&stick=H4sIAAAAAAAAAOPgE-LWT9c3LMlLz6uwzNWSzU620s_JT04syczPgzOsElNSilKLixexShalZuamFhVn5Ofkpipk5Jek5igkguUA12CFOUoAAAA&ludocid=2770460952141504904&sa=X&ved=2ahUKEwjfwr7diPbrAhWHw4sKHf4yB-8Q6BMwEnoECB4QAg)Reimersholmsgatan 5, 117 40 Stockholm, Sweden
 
 Curator: Tova Mozard
 
