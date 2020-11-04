@@ -14,7 +14,7 @@ tags:
   - Birdsview
   - Curator Tova Mozard
 ---
-Exo migratory movements
+**Exo migratory movements**
 
 Opening November 17th
 
