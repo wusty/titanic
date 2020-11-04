@@ -20,7 +20,7 @@ tags:
 ---
 UPCOMING DECEMBER
 
-Curator: Ana Hernandez
+Curator: Ana Hernández
 
 <https://www.isaksundstrom.com/info/>
 
