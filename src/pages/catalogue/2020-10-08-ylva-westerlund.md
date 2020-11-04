@@ -10,12 +10,18 @@ tags:
   - Hotel Reimersholme
   - Titanic
   - Ylva Westerlund
+  - Fluidity
+  - Birdsview
   - Curator Tova Mozard
 ---
-UPCOMING NOVEMBER
+Exo migratory movements
+
+Opening: November 17th at Reimersholme Hotel
 
 Curator: Tova Mozard
 
 <https://ylvawesterlund.blogspot.com>
 
 <https://atelierforimplosivedesign.blogspot.com/>
+
+![](/img/img_20201104_102409.jpg)
