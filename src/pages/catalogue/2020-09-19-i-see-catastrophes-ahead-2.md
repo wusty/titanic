@@ -13,14 +13,13 @@ tags:
   - contemporary art
   - stockholm
   - reimersholme hotel
+  - emoji
 ---
 **Exhibition open: October 18th – November 1st**
 
 TITANIC @ [REIMERSHOLME HOTEL](https://reimersholmehotel.se/)
 
 Adress: [](https://www.google.com/search?q=reimersholme+hotel+adress&stick=H4sIAAAAAAAAAOPgE-LWT9c3LMlLz6uwzNWSzU620s_JT04syczPgzOsElNSilKLixexShalZuamFhVn5Ofkpipk5Jek5igkguUA12CFOUoAAAA&ludocid=2770460952141504904&sa=X&ved=2ahUKEwjfwr7diPbrAhWHw4sKHf4yB-8Q6BMwEnoECB4QAg)Reimersholmsgatan 5, 117 40 Stockholm, Sweden
-
-**This venture is available in sync with opening hours at Reimersholme Hotel, further information and directions is available through the extraordinary sweet and helpful hotel staff in the reception or at the bar, welcome!**
 
 Catala was among the first New York based artists to be labeled as “post-internet”. That claim came to be out of his obsession in how technology breaks down the traditional bind between word and image, between the particular and the universal. His work focus on how the image infects the word, how the headline narrates the story, how the face (and ass) of things posit the truth. How a meme serves as the abbreviation - that signifies our inability to elaborate anything more because nothing more can be said. We've lost the words. So instead we meow. 
 
