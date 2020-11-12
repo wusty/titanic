@@ -16,7 +16,7 @@ tags:
 ---
 **Exo migratory movements**
 
-Opening November 21st
+21 November- 20 December
 
 TITANIC @ [REIMERSHOLME HOTEL](https://reimersholmehotel.se/)
 
@@ -33,8 +33,6 @@ Westerlund’s aquarelle paintings serve as memorandums from a series of excursi
 Westerlund borrows an associative style of narration from early Soviet science fiction similar to the way Tarkovsky adapted Boris and Arkadij Strugatskijs novel “*Piknik na obochine*” (Roadside picnic) for the screen in “Stalker” (1979).
 
 In the same way science fiction often has been interpreted as social critique, Westerlund’s work deals with questions of environmental justice and the anthropocene through the practice of ornithology or fairytales.
-
-
 
 <https://ylvawesterlund.blogspot.com>
 
