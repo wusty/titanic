@@ -17,7 +17,7 @@ tags:
 ---
 **Exhibition open: October 18th – November 1st**
 
-![](/img/img_1474.jpeg)
+![](/img/img_6195.jpg)
 
 TITANIC @ [REIMERSHOLME HOTEL](https://reimersholmehotel.se/)
 
