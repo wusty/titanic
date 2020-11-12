@@ -16,7 +16,7 @@ tags:
 ---
 **Exo migratory movements**
 
-Opening November 17th
+Opening November 21st
 
 TITANIC @ [REIMERSHOLME HOTEL](https://reimersholmehotel.se/)
 
@@ -24,8 +24,20 @@ Adress: [](https://www.google.com/search?q=reimersholme+hotel+adress&stick=H4sIA
 
 Curator: Tova Mozard
 
+
+
+Skogvaktarkärret, a wetland north of Stockholm – February 2020 – there is snow hanging in the air and the sounds of the Eurasian coot can be heard from the reed.
+
+Westerlund’s aquarelle paintings serve as memorandums from a series of excursions around lake Mälaren. The major part of them depicts former military areas and a specific landscape – created through military exercise –from abandoned bunkers and bandwagons to the less visible toxic contamination of soil.
+
+Westerlund borrows an associative style of narration from early Soviet science fiction similar to the way Tarkovsky adapted Boris and Arkadij Strugatskijs novel “*Piknik na obochine*” (Roadside picnic) for the screen in “Stalker” (1979).
+
+In the same way science fiction often has been interpreted as social critique, Westerlund’s work deals with questions of environmental justice and the anthropocene through the practice of ornithology or fairytales.
+
+
+
 <https://ylvawesterlund.blogspot.com>
 
 <https://atelierforimplosivedesign.blogspot.com/>
 
-![](/img/img_20201104_102409.jpg)
+![](/img/img_20200908_100518.jpg)
