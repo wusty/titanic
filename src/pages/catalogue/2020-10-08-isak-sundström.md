@@ -18,7 +18,7 @@ tags:
   - Vril
   - Åskvigg
 ---
-UPCOMING DECEMBER
+UPCOMING JANUARY
 
 Curator: Ana Hernández
 
