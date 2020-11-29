@@ -18,7 +18,7 @@ tags:
   - Vril
   - Åskvigg
 ---
-UPCOMING JANUARY
+January 9- February 6
 
 Curator: Ana Hernández
 
