@@ -24,6 +24,8 @@ Adress: [](https://www.google.com/search?q=reimersholme+hotel+adress&stick=H4sIA
 
 Curator: Tova Mozard
 
+![](/img/vy-uppifrån.jpg)
+
 \-
 
 Skogvaktarkärret, a wetland north of Stockholm – February 2020 – there is snow hanging in the air and the sounds of the Eurasian coot can be heard from the reed.
