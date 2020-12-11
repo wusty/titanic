@@ -26,9 +26,7 @@ Curator: Ana Hernández
 
 <https://bonnierskonsthall.se/utstallning/i-am-not-one/>
 
-<spotify:album:43mFv0jKSNPKtJkkJJLZJo>
-
-
+<https://open.spotify.com/album/43mFv0jKSNPKtJkkJJLZJo?si=fBQqbB8OQmiecTEro62Ewg>
 
 ![](/img/untitled-soffa-1024x768.jpg "Isak Sundström, Untitled 2020")
 
