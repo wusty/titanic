@@ -16,7 +16,7 @@ tags:
 ---
 **Exo migratory movements**
 
-21 November- 20 December
+21 November- 13 December
 
 TITANIC @ [REIMERSHOLME HOTEL](https://reimersholmehotel.se/)
 
