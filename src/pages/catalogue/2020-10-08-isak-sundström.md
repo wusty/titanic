@@ -18,7 +18,7 @@ tags:
   - Vril
   - Åskvigg
 ---
-January 9- February 6
+Upcoming February
 
 Curator: Ana Hernández
 
@@ -26,7 +26,9 @@ Curator: Ana Hernández
 
 <https://bonnierskonsthall.se/utstallning/i-am-not-one/>
 
-<https://www.isaksundstrom.com/454-2/>
+<spotify:album:43mFv0jKSNPKtJkkJJLZJo>
+
+
 
 ![](/img/untitled-soffa-1024x768.jpg "Isak Sundström, Untitled 2020")
 
