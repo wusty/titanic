@@ -2,7 +2,7 @@
 templateKey: catalogue-post
 title: Ylva Westerlund
 date: 2020-10-08T19:02:33.928Z
-featuredpost: true
+featuredpost: false
 tags:
   - contemporary art
   - Stockholm
