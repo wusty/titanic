@@ -11,6 +11,9 @@ tags:
   - pfw
   - swedish art
   - Jan Johansson
+  - Titanic
+  - Ana Hernández
+  - queer fashion
 ---
 Performance for Lazo Schmidl FW 21 Collection "Cake" during Paris fashion week featuring swedish artists Lars Nilsson and Tova Mozard eating sweet roll and cake, talking about the history of the swedish semla.
 
