@@ -23,6 +23,4 @@ The performance is part of "Cake series" created for Lazo Schmidl. Pt.2 will tak
 
 <https://www.lazoschmidl.com/>
 
-
-
-![](/img/img_7107.jpg "Cake series pt. 1")
+![](/img/img_7115.jpg "Cake series pt. 1")
