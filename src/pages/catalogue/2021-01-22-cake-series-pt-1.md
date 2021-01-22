@@ -2,6 +2,7 @@
 templateKey: catalogue-post
 title: Cake series pt. 1
 date: 2021-01-22T09:50:59.541Z
+featuredpost: true
 tags:
   - Lars Nilsson
   - Tova Mozard
