@@ -20,7 +20,7 @@ Performance for Lazo Schmidl FW 21 Collection "Cake" during Paris fashion week f
 
 Watch through: <https://www.instagram.com/p/CKUgAnrF-X0/>
 
-The performance is part of "Cake series" created for Lazo Schmidl. Pt.2 will take place during Stockholm Fashion Week
+The performance is part of "Cake series" created for Lazo Schmidl. Pt.2 will take place during Stockholm Fashion Week in February.
 
 <https://www.lazoschmidl.com/>
 
