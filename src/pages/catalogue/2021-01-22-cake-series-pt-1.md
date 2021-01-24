@@ -18,8 +18,6 @@ tags:
 ---
 Performance for Lazo Schmidl FW 21 Collection "Cake" during Paris fashion week featuring swedish artists Lars Nilsson and Tova Mozard eating sweet roll and cake, talking about the history of the swedish semla.
 
-Watch through: <https://www.instagram.com/p/CKUgAnrF-X0/>
-
 The performance is part of "Cake series" created for Lazo Schmidl. Pt.2 will take place during Stockholm Fashion Week in February.
 
 <https://www.lazoschmidl.com/>
